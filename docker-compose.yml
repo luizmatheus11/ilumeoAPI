@@ -1,0 +1,13 @@
+version: '3.6'
+services:
+  postgres:
+    container_name: ilumeo
+    image: bitnami/postgresql:latest
+    environment:
+      PRODUCTION: 'false'
+      POSTGRES_USER: ilumeo
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DATABASE: ilumeo-db
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "55432:5432"
