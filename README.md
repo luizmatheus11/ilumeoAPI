@@ -18,8 +18,8 @@ $ npx prisma db seed
 ## Rodar a aplicação
 
 ```bash
-# development
-$ npm run start
+# build
+$ npm run build
 
 # watch mode
 $ npm run start:dev
