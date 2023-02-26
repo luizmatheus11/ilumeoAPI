@@ -9,7 +9,6 @@
     "seed": "ts-node prisma/seed.ts"
   },
   "scripts": {
-    "prebuild": "rimraf dist",
     "build": "nest build",
     "start": "nest start",
     "start:dev": "nest start --watch",
